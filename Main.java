@@ -110,20 +110,20 @@ class Jogo{
     if ("Cara".compareToIgnoreCase(e) == 0 && resultado == true){
       j1.vez = true;
       pc.vez = false;
-      return "Você começa1";
+      return "Você começa";
     } else if ("Coroa".compareToIgnoreCase(e) == 0 && resultado == false){
       pc.vez = false;
       j1.vez = true;
-      return "Você começa2";
+      return "Você começa";
     }
     if ("Cara".compareToIgnoreCase(e) == 0 && resultado == false){
       pc.vez = true;
       j1.vez = false;
-      return "O computador começa3";
+      return "O computador começa";
     } else if ("Coroa".compareToIgnoreCase(e) == 0 && resultado == true){
       pc.vez = true;
       j1.vez = false;
-      return "O computador começa4";
+      return "O computador começa";
     }
     return "Erro";
   }
