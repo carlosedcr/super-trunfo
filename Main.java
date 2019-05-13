@@ -1,6 +1,6 @@
 import java.util.*;
 
-//Aluno: Carlos Eduardo Corrêa
+//Autor: Carlos Eduardo Corrêa
 
 class Main {
   public static void main(String[] args) {
